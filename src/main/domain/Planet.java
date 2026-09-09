@@ -1,8 +1,8 @@
 package main.domain;
 
 public class Planet {
-    private String name;
-    private String sector;
+    private final String name;
+    private final String sector;
     private int securityLevel;
 
     public Planet(String name, String sector, int securityLevel) {
