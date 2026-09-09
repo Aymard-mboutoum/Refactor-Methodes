@@ -1,7 +1,7 @@
 package main.domain;
 
 public class Cargo {
-    private String description;
+    private final String description;
     private double weight;
     private double declaredValue;
     private boolean hazardous;
@@ -11,7 +11,7 @@ public class Cargo {
         this.weight = weight;
         this.declaredValue = declaredValue;
         this.hazardous = hazardous;
-        
+
     }
 
     public String getDescription() { return description; }
